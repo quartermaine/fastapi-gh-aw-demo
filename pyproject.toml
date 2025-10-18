@@ -1,0 +1,26 @@
+[project]
+name = "fastapi-gh-aw-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.119.0",
+    "httpx>=0.28.1",
+    "pytest>=8.4.2",
+    "ruff>=0.14.1",
+    "uvicorn>=0.38.0",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+fix = true
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Enables import sorting (like isort)
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
