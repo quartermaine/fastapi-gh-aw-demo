@@ -6,6 +6,7 @@ A demonstration FastAPI application showcasing GitHub Actions workflow automatio
 
 - **FastAPI Framework**: Modern, fast web framework for building APIs
 - **Modular Architecture**: Clean separation of concerns with organized project structure
+- **Automated Documentation**: AI-powered workflow keeps documentation synchronized with code
 - **Testing**: Comprehensive test suite using pytest
 - **Code Quality**: Automated linting and formatting with Ruff
 - **Development Tools**: Quick development commands via Makefile
@@ -95,10 +96,11 @@ fastapi-gh-aw-demo/
 ## Documentation
 
 For detailed documentation, see the [docs](./docs) directory:
-- [Getting Started Tutorial](./docs/tutorial.md)
-- [API Reference](./docs/api-reference.md)
-- [Development Guide](./docs/development.md)
-- [Configuration Guide](./docs/configuration.md)
+- [Getting Started Tutorial](./docs/tutorial.md) - Step-by-step introduction
+- [API Reference](./docs/api-reference.md) - Complete endpoint specifications
+- [Development Guide](./docs/development.md) - Contribution guidelines and workflow
+- [Configuration Guide](./docs/configuration.md) - Environment setup and deployment
+- [Automation Guide](./docs/automation.md) - Understanding GitHub Actions workflows
 
 ## Development
 
