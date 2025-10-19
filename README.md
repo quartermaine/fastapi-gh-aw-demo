@@ -108,7 +108,7 @@ This project uses:
 - **FastAPI**: Web framework
 - **uvicorn**: ASGI server
 - **pytest**: Testing framework
-- **Ruff**: Linting and formatting
+- **Ruff**: Linting and formatting (configured for Python 3.12+)
 - **httpx**: HTTP client for testing
 
 ## License
