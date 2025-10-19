@@ -60,6 +60,20 @@ Detailed reference for application configuration:
 
 **Refer to this when configuring the application for different environments.**
 
+### 🔄 Understanding-Oriented: Explanation
+
+**[Automation and Workflows](./automation.md)**
+
+Explanation of automated workflows and documentation systems:
+- GitHub Actions workflow automation
+- Automated documentation updates
+- Diátaxis framework implementation
+- Workflow customization and best practices
+- Security considerations
+- Troubleshooting automation issues
+
+**Use this to understand how the project's automation works and how to customize it.**
+
 ## Quick Links
 
 ### For New Users
@@ -76,6 +90,11 @@ Detailed reference for application configuration:
 1. Review the [Configuration Guide](./configuration.md) for environment setup
 2. Check the [API Reference](./api-reference.md) for CORS and security settings
 3. See deployment examples in the Configuration Guide
+
+### For Understanding Automation
+1. Read the [Automation Guide](./automation.md) to understand workflow automation
+2. Learn how documentation stays synchronized with code
+3. Discover how to customize and extend the workflows
 
 ## Documentation Standards
 

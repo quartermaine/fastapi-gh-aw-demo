@@ -155,6 +155,8 @@ All documentation is in Markdown format in the `docs/` directory, following the 
 - **Reference**: Information-oriented, technical details
 - **Explanation**: Understanding-oriented, clarification
 
+**Automated Documentation**: The project uses an automated workflow that monitors code changes and creates pull requests for documentation updates. When you make code changes, the workflow may automatically suggest documentation improvements. See the [Automation Guide](./docs/automation.md) for details.
+
 See the [Documentation README](./docs/README.md) for more details.
 
 ## Review Process
