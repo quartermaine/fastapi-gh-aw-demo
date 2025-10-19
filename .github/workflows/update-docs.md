@@ -113,3 +113,14 @@ Documentation‑as‑Code, transparency, single source of truth, continuous impr
 > NOTE: Never make direct pushes to the main branch. Always create a pull request for documentation changes.
 
 > NOTE: Treat documentation gaps like failing tests.
+
+---
+
+## Documentation placement policy
+
+IMPORTANT: Do NOT overwrite or replace the repository's `README.md` file. Keep `README.md` as a short, high-level description of how the project works and how to run it. All generated or expanded documentation MUST go under the `docs/` directory.
+
+- If you need to add a pointer in `README.md`, add only a single short line such as: "Full documentation lives in the `docs/` directory." Do not remove or replace existing README content.
+- Create or update files under `docs/` (for tutorial/how-to/reference/explanation content) and avoid writing long-form documentation directly into `README.md`.
+- If a documentation change requires editing `README.md` beyond a small pointer, create a PR and describe the reason in the PR body; do not modify `README.md` automatically.
+
