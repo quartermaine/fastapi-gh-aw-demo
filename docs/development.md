@@ -57,6 +57,7 @@ ruff check --fix app tests
 ### Ruff Configuration
 
 The project's Ruff configuration is defined in `pyproject.toml`:
+Ruff is configured in `pyproject.toml` with the following settings:
 
 ```toml
 [tool.ruff]
@@ -81,6 +82,16 @@ Key configuration details:
 - **line-length**: 88 characters (Black-compatible standard)
 - **fix**: Automatically fix issues when possible
 - **Import sorting**: Enabled via `extend-select = ["I"]` for consistent import organization
+**Key Configuration Details**:
+
+- **target-version**: Set to `py312` to match the project's Python 3.12+ requirement. This ensures linting rules and type checking align with the actual Python version being used.
+- **line-length**: 88 characters (Black-compatible)
+- **fix**: Automatically fixes issues when possible
+- **Import sorting**: Enabled via the `I` rule (equivalent to isort)
+- **Quote style**: Double quotes for string literals
+- **Docstring code formatting**: Code blocks in docstrings are formatted
+
+The target version must match the `requires-python` field in `pyproject.toml` and the `.python-version` file to ensure consistency across the development environment.
 
 ## Project Structure
 
